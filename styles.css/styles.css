@@ -1,0 +1,367 @@
+/*header*/ 
+
+html {
+    min-width: 460px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color: #a74707;
+    border-bottom: 5px solid #80c055;
+    padding: 10px;
+    z-index: 1;
+}
+
+a img {
+    display: flex;
+    height: 100px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 35px;
+    font-style: oblique;
+    text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+.btn_menu {
+    padding: 10px;
+    margin-top: 100px;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;}
+
+.btn_menu:hover {
+    background-color: #a74707;
+    color: #000;
+}
+
+ul.navigation {
+    width: 100%;
+    margin: 2px;
+    padding: 0px;
+    display: none;
+    flex-direction: column;
+    font-family:'Times New Roman', Times, serif;}
+
+ul.navigation.show {
+    display: flex;
+
+}
+
+ul.navigation li {
+    list-style: none;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+}
+
+ul.navigation a {
+    text-decoration: none;
+    color: white;
+
+}
+a.navHover {
+    border-bottom: 1px solid #84ff00 ;
+}
+a.navHover:hover{
+    text-shadow: 1px 1px 2px #d4ffca, 0 0 1em #c8f9bd, 0 0 0.2em #cdfdc2;
+    border-bottom: 2px solid #33ff00;
+    border-radius: 2px;
+}
+
+.middle-wrapper {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 1fr;
+    margin-top: 175px;
+    background-image: url(../images/fondo.jpeg);
+    display: grid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container_recetas {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 1fr;
+    margin-top: 175px;
+    background-image: url(../images/fondo.jpeg);
+    display: grid;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.middle-wrapper h2 {
+    background-color: #a74707;
+    font-family:'Times New Roman', Times, serif;    text-align: center;
+    color: whitesmoke;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-shadow: 0.1em 0.2em 0.2em black;
+}
+
+.middle-wrapper li {
+    margin-left: 30px;
+}
+
+.fondo_texto {
+    background-image: url(../images/fondo.jpg);
+    margin: 20px;
+    color: #000;
+    width: 90%;
+    font-size: small;
+
+}
+
+.fondo_receta1, .fondo_receta2, .fondo_receta3, .fondo_receta4, .fondo_receta5, .fondo_receta6, .fondo_receta7, .fondo_receta8{
+    width: 100%;
+    height: 300px;
+    opacity: 70%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo_receta1 {
+    background-image: url(../images/harinas.jpg);
+
+}
+
+.fondo_receta2 {
+    background-image: url(../images/pan\ de\ campo.jpg);
+}
+
+.fondo_receta3 {
+    background-image: url(../images/pizzasintacc.jpg);
+}
+
+.fondo_receta4 {
+    background-image: url(../images/rapiditas.jpg);
+}
+
+.fondo_receta6 {
+    background-image: url(../images/tapaDeTartaSinTacc.jpg);
+}
+.fondo_receta7 {
+    background-image: url(../images/ñoquis.jpg);
+}
+.fondo_receta8 {
+    background-image: url(../images/medialunas.jpg);
+}
+
+.container_recetas h2 {
+    font-family:'Times New Roman', Times, serif;    color: #000;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+.container_locales {
+    margin-top: 175px;
+    background-image: url(../images/fondo.jpeg);
+    display: flex;
+    flex-direction: column;
+}
+
+.introduccion {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div table {
+    margin-bottom: 10px;
+}
+
+
+th {
+    background-color: #80c055;
+    color: black;
+
+}
+
+td {
+    color: rgb(255, 254, 254);
+    background-color: #a7639b;
+    padding: 0 5px;
+}
+
+table td tr {
+    border-collapse: collapse;
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-small;
+    align-items: center;
+}
+
+
+.negocios {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+    background-color: #f9d0f2;
+}
+
+.negocios h3 {
+    font-size: xx-large;
+}
+
+form input {
+    width: 350px;
+}
+
+form button {
+    margin-left: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+div.bloque,
+h3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f9d0f2;
+}
+
+.bloque {
+    color: #000;
+}
+
+
+
+.Resaltar_fila {
+    background-color: rgb(253, 253, 84);
+    color: #000;
+}
+
+.validacion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.validacion button {
+    margin-bottom: 10px;
+}
+
+.validacion h3 {
+    color: #000;
+    font-family:'Times New Roman', Times, serif;
+}
+
+aside {
+    background-color: #a74707;
+    color: whitesmoke;
+    width: 100%;
+    margin-top: 20px;
+    font-size: small;
+}
+
+aside h3 {
+    background-color: #80c055;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    background-color: #a74707;
+    color: white;
+    margin-top: 15px;
+    height: 30px;
+    width: 100%;
+}
+
+.middle-wrapper div h2 {
+    background-image: url("images/harinas.jpg");
+}
+
+.btnApi {
+    border: none;
+    background: transparent;
+}
+
+tr .tdApi {
+    border: none;
+    background: transparent;
+}
+.formAgregar-receta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a74707;
+    padding-top: 1em;
+}
+.formAgregar-receta input{
+    margin: 0.5em;
+}
+@media only screen and (min-width: 660px) {
+    a img {
+        display: flex;
+        height: 175px;
+        margin-bottom: 0px;
+        align-items: center;
+    }
+
+    h1 {
+        font-family:'Times New Roman', Times, serif;
+        color: #ffffff;
+        font-size: 50px;
+        font-style: oblique;
+    }
+
+    .btn_menu {
+        display: none;
+    }
+
+    /* cambiamos la direccion del flex */
+    ul.navigation {
+        display: flex;
+        flex-direction: row;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    .middle-wrapper {
+        grid-template-columns: 3fr 1fr;
+    }
+
+    div.centrarTabla table {
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .container_recetas {
+        grid-template-columns: 4fr;
+    }
+
+    div .introduccion h2,
+    P {
+        text-align: center;
+    }
+
+    .container_recetas h2 {
+        font-size: 100px;
+    }
+
+    .carga_usuario,
+    .modificar_usuario {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+
+
+}
